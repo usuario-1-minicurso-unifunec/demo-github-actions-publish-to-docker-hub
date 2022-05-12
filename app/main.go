@@ -26,7 +26,7 @@ func myHandler(w http.ResponseWriter, r *http.Request) {
 		Echo    string `json:"echo"`
 	}{
 		Success: true,
-		Message: "Request executado com sucesso",
+		Message: "Aqui é o usuario-1-minicurso-unifunec!",
 		Echo:    string(body),
 	}
 
